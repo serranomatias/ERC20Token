@@ -1,8 +1,29 @@
 {
+  "name": "erc20token",
+  "version": "1.0.0",
+  "description": "SerranoToken Address: 0x18171856BE1bC5E5049a786af12f9bA944e06a38;",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serranomatias/ERC20Token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serranomatias/ERC20Token/issues"
+  },
+  "homepage": "https://github.com/serranomatias/ERC20Token#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.8.1"
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3"
   }
 }
